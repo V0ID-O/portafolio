@@ -1621,14 +1621,6 @@ body {
 }
 
 
-.proyecto__produccion {
-
-    pointer-events: none;
-
-    border-style: dashed;
-}
-
-
 .proyecto__link::before {
 
     content: "";

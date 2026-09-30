@@ -127,11 +127,13 @@ const TRANSLATIONS = {
             "product catalog, inventory, daily sales and QR code labels. " +
             "Works without internet (offline-first) and automatically " +
             "syncs with the cloud every 10 minutes, conflict-free, " +
-            "through UUID-based sync.",
+            "through UUID-based sync. Try the demo: user <strong>demo" +
+            "</strong>, password <strong>demo1234</strong>.",
         p5Tech:
             "<strong>Technologies:</strong> " +
             "Python, FastAPI, SQLite, JavaScript, Cloudflare Workers + D1.",
-        p5Link: "In production — private code",
+        p5Link: "Open demo",
+        p5LinkAria: "Open the jewelry system demo",
         p2Title: "Online Store",
         p2Desc:
             "Development of an online store with a product catalog, " +
@@ -200,11 +202,13 @@ const TRANSLATIONS = {
             "catálogo de productos, inventario, ventas diarias y etiquetas " +
             "con código QR. Funciona sin internet (offline-first) y se " +
             "sincroniza automáticamente con la nube cada 10 minutos, sin " +
-            "conflictos, mediante UUID.",
+            "conflictos, mediante UUID. Prueba la demo: usuario " +
+            "<strong>demo</strong>, clave <strong>demo1234</strong>.",
         p5Tech:
             "<strong>Tecnologías:</strong> " +
             "Python, FastAPI, SQLite, JavaScript, Cloudflare Workers + D1.",
-        p5Link: "En producción — código privado",
+        p5Link: "Abrir demo",
+        p5LinkAria: "Abrir la demo del sistema de joyería",
         p2Title: "Tienda online",
         p2Desc:
             "Desarrollo de una tienda online con catálogo de productos, " +
