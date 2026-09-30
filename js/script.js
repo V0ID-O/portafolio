@@ -127,8 +127,8 @@ const TRANSLATIONS = {
             "product catalog, inventory, daily sales and QR code labels. " +
             "Works without internet (offline-first) and automatically " +
             "syncs with the cloud every 10 minutes, conflict-free, " +
-            "through UUID-based sync. Try the demo: user <strong>demo" +
-            "</strong>, password <strong>demo1234</strong>.",
+            "through UUID-based sync. Try the demo: <strong>USER → " +
+            "demo</strong> · <strong>PASS → demo1234</strong>.",
         p5Tech:
             "<strong>Technologies:</strong> " +
             "Python, FastAPI, SQLite, JavaScript, Cloudflare Workers + D1.",
@@ -202,8 +202,8 @@ const TRANSLATIONS = {
             "catálogo de productos, inventario, ventas diarias y etiquetas " +
             "con código QR. Funciona sin internet (offline-first) y se " +
             "sincroniza automáticamente con la nube cada 10 minutos, sin " +
-            "conflictos, mediante UUID. Prueba la demo: usuario " +
-            "<strong>demo</strong>, clave <strong>demo1234</strong>.",
+            "conflictos, mediante UUID. Prueba la demo: <strong>USUARIO → " +
+            "demo</strong> · <strong>CLAVE → demo1234</strong>.",
         p5Tech:
             "<strong>Tecnologías:</strong> " +
             "Python, FastAPI, SQLite, JavaScript, Cloudflare Workers + D1.",
