@@ -134,6 +134,19 @@ const TRANSLATIONS = {
             "Python, FastAPI, SQLite, JavaScript, Cloudflare Workers + D1.",
         p5Link: "Open demo",
         p5LinkAria: "Open the jewelry system demo",
+        p6Title: "Ruletape",
+        p6Desc:
+            "The beats roulette: drop the needle and discover random " +
+            "YouTube instrumentals filtered by genre, era, length and " +
+            "views. Smart caching keeps the daily API quota near zero, " +
+            "and with Google sign-in your saved beats sync across " +
+            "devices.",
+        p6Tech:
+            "<strong>Technologies:</strong> " +
+            "JavaScript, Cloudflare Workers (serverless), KV storage, " +
+            "YouTube Data API, OAuth 2.0 Google + PKCE.",
+        p6Link: "Open app",
+        p6LinkAria: "Open Ruletape app",
         p2Title: "Online Store",
         p2Desc:
             "Development of an online store with a product catalog, " +
@@ -209,6 +222,20 @@ const TRANSLATIONS = {
             "Python, FastAPI, SQLite, JavaScript, Cloudflare Workers + D1.",
         p5Link: "Abrir demo",
         p5LinkAria: "Abrir la demo del sistema de joyería",
+        p6Title: "Ruletape",
+        p6Desc:
+            "La ruleta de beats: suelta la aguja y descubre " +
+            "instrumentales de YouTube al azar, filtrados por género, " +
+            "época, duración y vistas. Cache inteligente para que la " +
+            "cuota diaria de la API de YouTube casi no se gaste, y con " +
+            "inicio de sesión de Google tus beats guardados se " +
+            "sincronizan entre dispositivos.",
+        p6Tech:
+            "<strong>Tecnologías:</strong> " +
+            "JavaScript, Cloudflare Workers (serverless), almacenamiento " +
+            "KV, YouTube Data API, OAuth 2.0 de Google + PKCE.",
+        p6Link: "Abrir app",
+        p6LinkAria: "Abrir la app Ruletape",
         p2Title: "Tienda online",
         p2Desc:
             "Desarrollo de una tienda online con catálogo de productos, " +
