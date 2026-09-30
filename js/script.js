@@ -84,9 +84,9 @@ const langToggle = document.querySelector(".lang-toggle");
 const TRANSLATIONS = {
 
     en: {
-        docTitle: "Portfolio | Sebastián Ruiz",
+        docTitle: "Portfolio | Sebastian Ruiz",
         docDesc:
-            "Professional portfolio of Sebastián Ruiz, systems engineer and web developer",
+            "Professional portfolio of Sebastian Ruiz, systems engineer and web developer",
         navAria: "Main navigation",
         menuToggleAria: "Open navigation menu",
         themeToDark: "Switch to dark theme",
@@ -94,22 +94,28 @@ const TRANSLATIONS = {
         heroTitle: "Hello, I'm Sebastian",
         heroText:
             "I am a systems engineer and web developer passionate about " +
-            "building clean, functional web experiences. I recently " +
-            "launched <strong>Notes_VTT</strong>, a progressive web app " +
-            "for musicians, and I am always learning something new — " +
-            "from frontend development to databases and deployment.",
+            "building clean, functional web experiences. My latest " +
+            "release is <strong>Ruletape</strong>, a YouTube beats " +
+            "roulette live in the cloud, and I keep shipping — from " +
+            "frontend development to databases and deployment.",
         navProjects: "Projects",
         navContact: "Contact",
         skillsTitle: "Skills",
         aboutTitle: "About Me",
         profileTitle: "Professional Profile",
         profileText:
-            "I have experience in frontend development and in creating " +
-            "web interfaces using modern technologies.",
+            "Systems engineer and web developer. I build complete products " +
+            "end to end — frontend, backend, databases and deployment — " +
+            "and I like shipping software that solves a real problem and " +
+            "keeps working: a music PWA in production, a point-of-sale " +
+            "system running offline-first at a real jewelry store, and a " +
+            "cloud-native web game. Simple code, honest architecture, " +
+            "and projects that survive the real world.",
         infoTitle: "Additional Information",
         infoLocation: "Location: Bogotá, Colombia",
-        infoAvailability: "Availability: Freelance",
-        infoLanguages: "Languages: Spanish and English",
+        infoAvailability: "Availability: Freelance / open to work",
+        infoLanguages: "Languages: Spanish (native) and English",
+        infoStack: "Focus: full-stack web, serverless and automation",
         projectsTitle: "My Projects",
         p1Title: "Notes_VTT",
         p1Desc:
@@ -147,57 +153,49 @@ const TRANSLATIONS = {
             "YouTube Data API, OAuth 2.0 Google + PKCE.",
         p6Link: "Open app",
         p6LinkAria: "Open Ruletape app",
-        p2Title: "Online Store",
-        p2Desc:
-            "Development of an online store with a product catalog, " +
-            "shopping cart, and contact form.",
-        p2LinkAria: "View Online Store project",
-        p3Title: "Personal Blog",
-        p3Desc:
-            "Blog designed for publishing articles related to " +
-            "technology and web development.",
-        p3LinkAria: "View Personal Blog project",
-        p4Title: "Task Application",
-        p4Desc:
-            "Web application for creating, completing, and deleting " +
-            "tasks using local storage.",
-        p4LinkAria: "View Task Application project",
-        techHtml: "<strong>Technologies:</strong> HTML, CSS and JavaScript.",
-        viewProject: "View project",
+        viewMore: "More projects on GitHub",
+        viewMoreAria: "See more projects on GitHub",
         contactTitle: "Contact",
         contactText: "You can find me on my social media:",
         footerName: "Sebastian Ruiz.",
     },
 
     es: {
-        docTitle: "Portafolio | Sebastián Ruiz",
+        docTitle: "Portafolio | Sebastian Ruiz",
         docDesc:
-            "Portafolio profesional de Sebastián Ruiz, ingeniero de " +
+            "Portafolio profesional de Sebastian Ruiz, ingeniero de " +
             "sistemas y desarrollador web",
         navAria: "Navegación principal",
         menuToggleAria: "Abrir menú de navegación",
         themeToDark: "Cambiar a tema oscuro",
         themeToLight: "Cambiar a tema claro",
-        heroTitle: "Hola, soy Sebastián",
+        heroTitle: "Hola, soy Sebastian",
         heroText:
             "Soy ingeniero de sistemas y desarrollador web apasionado " +
-            "por construir experiencias web limpias y funcionales. " +
-            "Recientemente lancé <strong>Notes_VTT</strong>, una app " +
-            "progresiva para músicos, y siempre estoy aprendiendo algo " +
-            "nuevo — desde desarrollo frontend hasta bases de datos " +
-            "y despliegue.",
+            "por construir experiencias web limpias y funcionales. Mi " +
+            "último lanzamiento es <strong>Ruletape</strong>, la ruleta " +
+            "de beats de YouTube que corre en la nube, y sigo " +
+            "entregando — desde desarrollo frontend hasta bases de " +
+            "datos y despliegue.",
         navProjects: "Proyectos",
         navContact: "Contacto",
         skillsTitle: "Habilidades",
         aboutTitle: "Sobre mí",
         profileTitle: "Perfil profesional",
         profileText:
-            "Tengo experiencia en desarrollo frontend y en la creación " +
-            "de interfaces web con tecnologías modernas.",
+            "Ingeniero de sistemas y desarrollador web. Construyo " +
+            "productos completos de punta a punta — frontend, backend, " +
+            "bases de datos y despliegue — y me gusta entregar software " +
+            "que resuelve un problema real y sigue funcionando: una PWA " +
+            "para músicos en producción, un punto de venta que corre " +
+            "offline-first en una joyería de verdad y un juego web " +
+            "respaldado en la nube. Código sencillo, arquitectura " +
+            "honesta y proyectos que sobreviven al mundo actual.",
         infoTitle: "Información adicional",
         infoLocation: "Ubicación: Bogotá, Colombia",
-        infoAvailability: "Disponibilidad: Freelance",
-        infoLanguages: "Idiomas: Español e inglés",
+        infoAvailability: "Disponibilidad: Freelance / abierto a trabajo",
+        infoLanguages: "Idiomas: Español (nativo) e inglés",
+        infoStack: "Enfoque: full-stack web, serverless y automatización",
         projectsTitle: "Mis proyectos",
         p1Title: "Notes_VTT",
         p1Desc:
@@ -236,26 +234,11 @@ const TRANSLATIONS = {
             "KV, YouTube Data API, OAuth 2.0 de Google + PKCE.",
         p6Link: "Abrir app",
         p6LinkAria: "Abrir la app Ruletape",
-        p2Title: "Tienda online",
-        p2Desc:
-            "Desarrollo de una tienda online con catálogo de productos, " +
-            "carrito de compras y formulario de contacto.",
-        p2LinkAria: "Ver el proyecto Tienda online",
-        p3Title: "Blog personal",
-        p3Desc:
-            "Blog diseñado para publicar artículos sobre tecnología " +
-            "y desarrollo web.",
-        p3LinkAria: "Ver el proyecto Blog personal",
-        p4Title: "Aplicación de tareas",
-        p4Desc:
-            "Aplicación web para crear, completar y eliminar tareas " +
-            "usando almacenamiento local.",
-        p4LinkAria: "Ver el proyecto Aplicación de tareas",
-        techHtml: "<strong>Tecnologías:</strong> HTML, CSS y JavaScript.",
-        viewProject: "Ver proyecto",
+        viewMore: "Más proyectos en GitHub",
+        viewMoreAria: "Ver más proyectos en GitHub",
         contactTitle: "Contacto",
         contactText: "Puedes encontrarme en mis redes sociales:",
-        footerName: "Sebastián Ruiz.",
+        footerName: "Sebastian Ruiz.",
     },
 };
 
