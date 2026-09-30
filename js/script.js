@@ -121,6 +121,17 @@ const TRANSLATIONS = {
             "HTML, CSS, JavaScript, Firebase (Firestore + Auth).",
         p1Link: "Open app",
         p1LinkAria: "Open Notes_VTT app",
+        p5Title: "Jewelry Management System",
+        p5Desc:
+            "Real production management system for a jewelry store: " +
+            "product catalog, inventory, daily sales and QR code labels. " +
+            "Works without internet (offline-first) and automatically " +
+            "syncs with the cloud every 10 minutes, conflict-free, " +
+            "through UUID-based sync.",
+        p5Tech:
+            "<strong>Technologies:</strong> " +
+            "Python, FastAPI, SQLite, JavaScript, Cloudflare Workers + D1.",
+        p5Link: "In production — private code",
         p2Title: "Online Store",
         p2Desc:
             "Development of an online store with a product catalog, " +
@@ -183,6 +194,17 @@ const TRANSLATIONS = {
             "HTML, CSS, JavaScript, Firebase (Firestore + Auth).",
         p1Link: "Abrir app",
         p1LinkAria: "Abrir la app Notes_VTT",
+        p5Title: "Sistema de gestión de joyería",
+        p5Desc:
+            "Sistema de gestión en producción real para una joyería: " +
+            "catálogo de productos, inventario, ventas diarias y etiquetas " +
+            "con código QR. Funciona sin internet (offline-first) y se " +
+            "sincroniza automáticamente con la nube cada 10 minutos, sin " +
+            "conflictos, mediante UUID.",
+        p5Tech:
+            "<strong>Tecnologías:</strong> " +
+            "Python, FastAPI, SQLite, JavaScript, Cloudflare Workers + D1.",
+        p5Link: "En producción — código privado",
         p2Title: "Tienda online",
         p2Desc:
             "Desarrollo de una tienda online con catálogo de productos, " +

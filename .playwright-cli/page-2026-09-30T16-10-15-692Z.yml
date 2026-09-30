@@ -1,0 +1,138 @@
+- generic [ref=e2]:
+  - navigation "Main navigation" [ref=e3]:
+    - button "Switch to dark theme" [ref=e4] [cursor=pointer]
+    - button "Cambiar idioma a español" [ref=e7] [cursor=pointer]: ES
+    - list [ref=e8]:
+      - listitem [ref=e9]:
+        - link [ref=e10] [cursor=pointer]:
+          - /url: "#inicio"
+          - img "Home" [ref=e11]
+      - listitem [ref=e12]:
+        - link [ref=e13] [cursor=pointer]:
+          - /url: "#sobre-mi"
+          - img "About me" [ref=e14]
+      - listitem [ref=e15]:
+        - link [ref=e16] [cursor=pointer]:
+          - /url: "#habilidades"
+          - img "Skills" [ref=e17]
+      - listitem [ref=e18]:
+        - link [ref=e19] [cursor=pointer]:
+          - /url: "#proyectos"
+          - img "Projects" [ref=e20]
+      - listitem [ref=e21]:
+        - link [ref=e22] [cursor=pointer]:
+          - /url: "#contacto"
+          - img "Contact" [ref=e23]
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - heading "Hello, I'm Sebastian" [level=2] [ref=e26]:
+        - text: Hel
+        - generic [aria-hidden] [ref=e27]: ▍
+      - paragraph [ref=e28]:
+        - text: I am a systems engineer and web developer passionate about building clean, functional web experiences. I recently launched
+        - strong [ref=e29]: Notes_VTT
+        - text: ", a progressive web app for musicians, and I am always learning something new — from frontend development to databases and deployment."
+      - generic [ref=e30]:
+        - link "Projects" [ref=e31] [cursor=pointer]:
+          - /url: "#proyectos"
+        - link "Contact" [ref=e32] [cursor=pointer]:
+          - /url: "#contacto"
+    - generic [ref=e33]:
+      - heading "Skills" [level=2] [ref=e34]
+      - list [ref=e35]:
+        - listitem [ref=e36]:
+          - img "HTML" [ref=e37]
+          - text: HTML5
+        - listitem [ref=e38]:
+          - img "JS" [ref=e39]
+          - text: JavaScript
+        - listitem [ref=e40]:
+          - img "PYTHON" [ref=e41]
+          - text: Python
+        - listitem [ref=e42]:
+          - img "MYSQL" [ref=e43]
+          - text: SQL
+        - listitem [ref=e44]:
+          - img "NODEJS" [ref=e45]
+          - text: Node.js
+        - listitem [ref=e46]:
+          - img "LINUX" [ref=e47]
+          - text: Linux
+    - generic [ref=e48]:
+      - heading "About Me" [level=2] [ref=e49]
+      - article [ref=e50]:
+        - heading "Professional Profile" [level=3] [ref=e51]
+        - paragraph [ref=e52]: I have experience in frontend development and in creating web interfaces using modern technologies.
+      - complementary [ref=e53]:
+        - heading "Additional Information" [level=3] [ref=e54]
+        - list [ref=e55]:
+          - listitem [ref=e56]: "Location: Bogotá, Colombia"
+          - listitem [ref=e57]: "Availability: Freelance"
+          - listitem [ref=e58]: "Languages: Spanish and English"
+    - generic [ref=e59]:
+      - heading "My Projects" [level=2] [ref=e60]
+      - generic [ref=e61]:
+        - article [ref=e62]:
+          - heading "Notes_VTT" [level=3] [ref=e63]
+          - paragraph [ref=e64]: Progressive web app for writing song notes and lyrics, with chips linking to YouTube beats. Google sign-in and real-time sync across devices.
+          - paragraph [ref=e65]:
+            - strong [ref=e66]: "Technologies:"
+            - text: HTML, CSS, JavaScript, Firebase (Firestore + Auth).
+          - link "Open Notes_VTT app" [ref=e67] [cursor=pointer]:
+            - /url: https://notes-vtt.web.app
+            - text: Open app
+        - article [ref=e68]:
+          - heading "Jewelry Management System" [level=3] [ref=e69]
+          - paragraph [ref=e70]: "Real production management system for a jewelry store: product catalog, inventory, daily sales and QR code labels. Works without internet (offline-first) and automatically syncs with the cloud every 10 minutes, conflict-free, through UUID-based sync."
+          - paragraph [ref=e71]:
+            - strong [ref=e72]: "Technologies:"
+            - text: Python, FastAPI, SQLite, JavaScript, Cloudflare Workers + D1.
+          - generic: In production — private code
+        - article [ref=e73]:
+          - heading "Online Store" [level=3] [ref=e74]
+          - paragraph [ref=e75]: Development of an online store with a product catalog, shopping cart, and contact form.
+          - paragraph [ref=e76]:
+            - strong [ref=e77]: "Technologies:"
+            - text: HTML, CSS and JavaScript.
+          - link "View Online Store project" [ref=e78] [cursor=pointer]:
+            - /url: "#"
+            - text: View project
+        - article [ref=e79]:
+          - heading "Personal Blog" [level=3] [ref=e80]
+          - paragraph [ref=e81]: Blog designed for publishing articles related to technology and web development.
+          - paragraph [ref=e82]:
+            - strong [ref=e83]: "Technologies:"
+            - text: HTML, CSS and JavaScript.
+          - link "View Personal Blog project" [ref=e84] [cursor=pointer]:
+            - /url: "#"
+            - text: View project
+        - article [ref=e85]:
+          - heading "Task Application" [level=3] [ref=e86]
+          - paragraph [ref=e87]: Web application for creating, completing, and deleting tasks using local storage.
+          - paragraph [ref=e88]:
+            - strong [ref=e89]: "Technologies:"
+            - text: HTML, CSS and JavaScript.
+          - link "View Task Application project" [ref=e90] [cursor=pointer]:
+            - /url: "#"
+            - text: View project
+    - generic [ref=e91]:
+      - heading "Contact" [level=2] [ref=e92]
+      - paragraph [ref=e93]: "You can find me on my social media:"
+      - generic [ref=e94]:
+        - link [ref=e95] [cursor=pointer]:
+          - /url: https://github.com/V0ID-O
+          - img "GITHUB" [ref=e96]
+        - link [ref=e97] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/sebastian-ruiz-s/
+          - img "LINKEDIN" [ref=e98]
+        - link [ref=e99] [cursor=pointer]:
+          - /url: https://www.instagram.com/verttigo.__?igsi=emxjbjZlNTVoZmI0&utm_source=qr
+          - img "INSTAGRAM" [ref=e100]
+  - link [ref=e101] [cursor=pointer]:
+    - /url: https://github.com/V0ID-O
+    - img "GITHUB" [ref=e102]
+  - contentinfo [ref=e103]:
+    - paragraph [ref=e104]:
+      - text: ©
+      - time [ref=e105]: "2026"
+      - text: Sebastian Ruiz.
