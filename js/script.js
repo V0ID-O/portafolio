@@ -93,11 +93,11 @@ const TRANSLATIONS = {
         themeToLight: "Switch to light theme",
         heroTitle: "Hello, I'm Sebastian",
         heroText:
-            "I am a systems engineer and web developer passionate about " +
-            "building clean, functional web experiences. My latest " +
-            "release is <strong>Ruletape</strong>, a YouTube beats " +
-            "roulette live in the cloud, and I keep shipping — from " +
-            "frontend development to databases and deployment.",
+            "I build web products end to end — frontend, backend, " +
+            "databases and deployment — and I keep them alive: " +
+            "<strong>Ruletape</strong>, my YouTube beats roulette, has " +
+            "been running in the cloud 24/7. If it's not in production, " +
+            "it doesn't count.",
         navProjects: "Projects",
         navContact: "Contact",
         skillsTitle: "Skills",
@@ -171,12 +171,11 @@ const TRANSLATIONS = {
         themeToLight: "Cambiar a tema claro",
         heroTitle: "Hola, soy Sebastian",
         heroText:
-            "Soy ingeniero de sistemas y desarrollador web apasionado " +
-            "por construir experiencias web limpias y funcionales. Mi " +
-            "último lanzamiento es <strong>Ruletape</strong>, la ruleta " +
-            "de beats de YouTube que corre en la nube, y sigo " +
-            "entregando — desde desarrollo frontend hasta bases de " +
-            "datos y despliegue.",
+            "Construyo productos web de punta a punta —frontend, " +
+            "backend, bases de datos y despliegue— y los dejo vivos: " +
+            "<strong>Ruletape</strong>, mi ruleta de beats de YouTube, " +
+            "lleva corriendo 24/7 en la nube. Si no está en producción, " +
+            "para mí no cuenta.",
         navProjects: "Proyectos",
         navContact: "Contacto",
         skillsTitle: "Habilidades",
